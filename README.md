@@ -160,7 +160,7 @@ These techniques allow the system to maintain real-time responsiveness on standa
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/face-recognition-system.git
+git clone https://github.com/tansheetalitaj/face-recognition-system.git
 
 Navigate to the project directory:
 
@@ -297,6 +297,7 @@ PhD Applicant in Artificial Intelligence and Computer Vision
 
 GitHub: https://github.com/tansheetalitaj
 Email: tansheetalitaj@gmail.com
+
 ---
 
 ## License
