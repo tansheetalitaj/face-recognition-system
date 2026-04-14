@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Models
+*.h5
+*.dat
+
+# DeepFace weights
+.deepface/
+
+# Virtual environments
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
