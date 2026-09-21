@@ -1,0 +1,25 @@
+{
+  "anti-spoof-mn3.onnx": {
+    "source": "https://storage.openvinotoolkit.org/repositories/open_model_zoo/public/2022.1/anti-spoof-mn3/anti-spoof-mn3.onnx",
+    "size": 12270179,
+    "sha384": "6de4534964b723397b3e8c995cadcf43bc007cc2f9930b95ae25f76adccece5d1d4d058d0b15117b9e4a9f758424f92a",
+    "input": "1x3x128x128 RGB",
+    "classes": ["real", "spoof"],
+    "license": "MIT",
+    "upstream": "Intel Open Model Zoo anti-spoof-mn3"
+  },
+  "age_deploy.prototxt": {
+    "source": "https://raw.githubusercontent.com/spmallick/learnopencv/master/AgeGender/age_deploy.prototxt",
+    "size": 2308,
+    "sha384": "09268b6b0bdfb78f3dcdb09d7de5a66e6b907ecbdc4aaeede36c228a123b70269a09263143d11ac399f06b546ac8c693",
+    "purpose": "optional age-only eight-band network definition"
+  },
+  "age_net.caffemodel": {
+    "source": "https://www.dropbox.com/s/xfb20y596869vbb/age_net.caffemodel?dl=1",
+    "size": 45661480,
+    "sha384": "81327d78e6aa7a6f818f46f7b058a23eb1df379b089673cab2be1b91c65e88bc6daed9f91a830713f097f04753492ebf",
+    "classes": ["0-2", "4-6", "8-12", "15-20", "25-32", "38-43", "48-53", "60+"],
+    "upstream": "Levi and Hassner age classification model distributed by LearnOpenCV",
+    "warning": "Research/demo model. Broad bands are estimates, not verified ages. Review upstream terms before redistribution."
+  }
+}

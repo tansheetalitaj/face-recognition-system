@@ -1,0 +1,7 @@
+# Runtime dependencies for Python 3.10.
+# dlib and face-recognition-models are installed transitively by face-recognition.
+face-recognition==1.3.0
+mediapipe==0.10.21
+numpy==1.26.4
+onnxruntime==1.23.1
+opencv-contrib-python==4.11.0.86

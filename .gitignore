@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.coverage
+.env
+.cache/
+/known_faces/*
+!/known_faces/.gitkeep
+/evaluation/
+/logs/
+/models/*.onnx
+/models/*.download
+/models/*.caffemodel
+/models/age_deploy.prototxt
+
+# Models
+*.h5
+*.dat
+
+# DeepFace weights
+.deepface/
+
+# Virtual environments
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
